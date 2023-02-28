@@ -1,0 +1,78 @@
+Attribute name	Description
+cashtags.*	An array containing the string version of the cashtags included in the tweet, without the $ character
+content	Content of the tweet with URLs transformed through the Twitter link shortener t.co (see attribute renderedContent)
+conversationId	The unique ID of the conversation
+coordinates.*	JSON object containing the geographical coordinates in Decimal Degrees (DD) format
+coordinates._type	Internal value added by snscrape, whose value described the snscrape module used to collect the data
+coordinates.latitude	The latitude of the location from where the tweet was sent
+coordinates.longitude	The longitude of the location from where the tweet was sent
+date	Date on which the tweet was posted, using the format YYYY-MM-DDTHH:MM:SS+TZ
+hashtags.*	List of strings containing the hashtags included in the tweet’s contents as strings stripped of the # character; one item for each hashtag
+id	Tweet unique ID
+inReplyToTweetId	Unique ID of the tweet the current tweet replies to
+inReplyToUser.*	Array of JSON objects, each one containing details about the creator of the tweet the current tweet replies to, formatted according to the same structure as user.*
+lang	The language in which the content of the tweet is written, as identified by Twitter using 2-character ISO 639-1 format
+likeCount	The number of likes (visually rendered with the image of a heart on Twitter) the tweet has at the time of scraping
+media.*	Array of JSON objects, each one containing details regarding the attached media file
+media._type	Internal value added by snscrape, whose value describes the snscrape module used to collect the data
+media.fullUrl	For pictures only. Direct link to the full-sized image – appearing when a user clicks on the tweet’s image
+media.previewUrl	For pictures only. Direct link to the resized image – appearing when viewing the tweet from the web or app interface
+media.thumbnailUrl	For videos only.  Direct link to the video thumbnail
+media.variants.*	For videos only. Array of JSON objects, each one containing details regarding the different versions Twitter creates for the attached video.
+media.variants.0._type	For videos only. Internal value added by snscrape, whose value describes the snscrape module used to collect the data
+media.variants.0.bitrate	For videos only. The bitrate of the video
+media.variants.0.contentType	For videos only. The textual description of the format of the file, e.g. “video/mp4”
+media.variants.0.url	For videos only. Direct link to the video
+mentionedUsers.*	Array of JSON objects composed of items containing details about users included in the tweet’s contents,  formatted according to the same structure as user.*
+outlinks.*	A list of strings, each one representing one of the links included in the tweet’s contents
+place.*	JSON object containing the details of the place from where the tweet was posted, as identified by Twitter
+place._type	Internal value added by snscrape, whose value describes the snscrape module used to collect the data
+place.fullName	Full extended name of the location as identified by Twitter
+place.name	Short name of the location as identified by Twitter
+place.type	Type of location: e.g. “Country”, “City”, etc…
+place.country	The name of the country where the place is located, as identified by Twitter
+place.countryCode	Two-letter country code of the country, in ISO 3166-2 format
+quoteCount	The number of times the tweet has been quoted by other tweets at the time of scraping
+quotedTweet.*	JSON object composed of items containing details about the quoted tweet and its creator, formatted according to the same structure as the JSON object for the original tweet
+renderedContent	Content (from attribute content) of the tweet as it appears on the web or app interface and formatted without the use of t.co URL shortener
+replyCount	Numbers of replies the tweet has received at the time of scraping
+retweetCount	The number of times the tweet has been retweeted at the time of scraping
+retweetedTweet.*	Array of JSON objects containing details about the retweeted tweet and its creator, formatted according to the same structure as the JSON object for the original tweet
+source	Link in HTML syntax of the application used by the user to post the tweet; for the official Twitter mobile interface this appears as <a href=’https://mobile.twitter.com’ rel=’nofollow'>Twitter Web App</a>
+sourceLabel	Plain text name of the application used by the user to post the tweet
+sourceUrl	Direct link to the used-application website
+tcooutlinks.*	A list of strings, each one representing one of the links included in the tweet’s contents shortened using the t.co service
+url	Direct URL to the tweet
+user.*	JSON object containing details about the account who posted the tweet
+user._type	Internal value added by snscrape, whose value described the snscrape module used to collect the data
+user.created	Date on which the account was created, using the format YYYY-MM-DDTHH:MM:SS+TZ
+user.description	Description associated with the account, as written by the user and as appearing in the web or app interface
+user.descriptionUrls.*	JSON object containing details about the URLS included in the account description – one JSON item per URL
+user.descriptionUrls.indices.*	List containing the positional number of the first and last character of the URL
+user.descriptionUrls.tcourl	Shortened URL using the t.co service
+user.descriptionUrls.text	Plain text version of the URL, as written by the user
+user.descriptionUrls.url	Full URL version, including http(s):// - if missing from the text version
+user.displayname	The full name associated with the account, as written by the user
+user.favouritesCount	The number of tweets the account has liked at the time of scraping
+user.followersCount	The number of followers the account has at the time of scraping
+user.friendsCount	The number of users the account is following – i.e. friends – at the time of scraping
+user.id	The account unique ID
+user.label.*	Array of JSON objects, each one containing details regarding the government and state-affiliated media account labels on Twitter (see description)
+user.label._type	Internal value added by snscrape, whose value describes the snscrape module used to collect the data
+user.label.badgeUrl	Direct link to the image appearing, in the Twitter interface, next to the description of the label
+user.label.description	Description appearing on the Twitter interface describing the details of the media account according to government and state-affiliated labels employed by Twitter
+user.label.longDescription	Longer description (if available) of the media account according to government and state-affiliated labels employed by Twitter
+user.label.url	URL to the documentation ‘About government and state-affiliated media account labels on Twitter’ (see description)
+user.linkTcourl	Shortened version of the URL the user has indicated in the ‘Website’ field of the account, using t.co
+user.linkUrl	Plain text version of the URL the user has indicated in the ‘Website’ field of the account
+user.listedCount	The number of public lists the account is a member of, at the time of scraping
+user.location	User-defined location of the account’s profile
+user.mediaCount	The number of multimedia contents the account has uploaded on Twitter at the time of scraping
+user.profileBannerUrl	Direct link to the account’s banner picture
+user.profileImageUrl	Direct link to the account’s profile picture
+user.protected	Indicates whether the account is public – i.e. anyone can read the user’s tweets, value equal to “false” – or private – only accounts that have been accepted by the user can read their tweets, value equal to “true”
+user.rawDescription	Description associated with the account, as written by the user with URLs transformed through the Twitter link shortener t.co
+user.statusesCount	The number of tweets the account has posted at the time of scraping
+user.url	Full link to the account’s page, using the username as written by the user
+user.username	Username of the account through which the tweet was posted
+user.verified	Indicates whether the account is verified by Twitter or not – i.e. if a blue stamp is shown next to the displayname value
