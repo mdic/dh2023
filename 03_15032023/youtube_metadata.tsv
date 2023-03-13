@@ -17,7 +17,7 @@ comment_count	 Number of comments on the video (optional)
 creator	 The creator of the video. (optional)
 description	 Full video description. (optional)
 dislike_count	 Number of negative ratings of the video (currently empty, see description)
-display_id	 An alternative identifier for the video, not necessarily unique, but available before title. Typically, id is something like "4234987", title "Dancing naked mole rats", and display_id "dancing-naked-mole-rats"  (optional)
+display_id	 An alternative identifier for the video, not necessarily unique, but available before title. Typically, id is something like '4234987', title 'Dancing naked mole rats', and display_id 'dancing-naked-mole-rats'  (optional)
 duration	 Length of the video in seconds. (optional)
 end_time	 Time in seconds where the reproduction should end, as specified in the URL. (optional)
 ext	 Video filename extension.
@@ -33,9 +33,9 @@ formats.0.downloader_options.http_chunk_size	The number of parts in which the fi
 formats.0.ext	The extension of the format
 formats.0.filesize	 The number of bytes, if known in advance
 formats.0.filesize_approx	 An estimate for the number of bytes
-formats.0.format	 A human-readable description of the format ("mp4 container with h264/opus"). Calculated from the format_id, width, height. and format_note fields if missing.
-formats.0.format_id	A short description of the format ("mp4_h264_opus" or "19"). Technically optional, but strongly recommended. 
-formats.0.format_note	 Additional info about the format ("3D" or "DASH video")
+formats.0.format	 A human-readable description of the format ('mp4 container with h264/opus'). Calculated from the format_id, width, height. and format_note fields if missing.
+formats.0.format_id	A short description of the format ('mp4_h264_opus' or '19'). Technically optional, but strongly recommended.
+formats.0.format_note	 Additional info about the format ('3D' or 'DASH video')
 formats.0.fps	 Frame rate of the video
 formats.0.fragment_base_url	 Base URL for fragments. Each fragment's path value (if present) will be relative to this URL.
 formats.0.fragments	 A list of fragments of a fragmented media. Each fragment entry must contain either an url or a path. If an url is present it should be considered by a client. Otherwise both path  and fragment_base_url must be present.
@@ -46,13 +46,13 @@ formats.0.http_headers.Accept-Charset	List of the character encodings requested 
 formats.0.http_headers.Accept-Encoding	List of the compression formats requested to the server
 formats.0.http_headers.Accept-Language	List of the languages (in two-letter codes, e.g. ‘en’) requested to the server
 formats.0.http_headers.User-Agent	The User-Agent (see ‘Crawling and scraping the data’) employed
-formats.0.language	Language code, e.g. "de" or "en-US" of the content, as defined by the creator
+formats.0.language	Language code, e.g. 'de' or 'en-US' of the content, as defined by the creator
 formats.0.language_preference	The preferred language of the content to be shown to viewers, as set by the creator
 formats.0.manifest_url	 The URL of the manifest file in case of fragmented media (DASH, hls, hds)
 formats.0.no_resume	Whether the server supports download resuming
 formats.0.player_url	Link to the player URL, i.e. the web tool used to play the video
 formats.0.preference	Order number of this format. If this field is present and not None, the formats get sorted by this field, regardless of all other values. -1 for default (order by other properties), -2 or smaller for less than default. < -1000 to hide the format (if there is another one which is strictly better)
-formats.0.protocol	 The protocol used for the actual download, lower-case. "http", "https", "rtsp", "rtmp", "rtmpe", "m3u8", "m3u8_native" or "http_dash_segments".
+formats.0.protocol	 The protocol used for the actual download, lower-case. 'http', 'https', 'rtsp', 'rtmp', 'rtmpe', 'm3u8', 'm3u8_native' or 'http_dash_segments'.
 formats.0.quality	Order number of the video quality of this format, irrespective of the file format. -1 for default (order by other properties), -2 or smaller for less than default.
 formats.0.resolution	 Textual description of width and height in pixels
 formats.0.source_preference	Order number for the selected video source (quality takes higher priority) -1 for default (order by other properties), -2 or smaller for less than default.
@@ -81,18 +81,18 @@ repost_count	 Number of reposts of the video (optional)
 resolution	The video resolution, e.g. 144p
 start_time	 Time in seconds where the reproduction should start, as specified in the URL. (optional)
 stretched_ratio	Whether the video proportions should be kept intact or the video should be resized
-subtitles.*	 The available subtitles as a dictionary in the format {tag: subformats}. "tag" is usually a language code, and "subformats" is a list sorted from lower to higher preference
+subtitles.*	 The available subtitles as a dictionary in the format {tag: subformats}. 'tag' is usually a language code, and 'subformats' is a list sorted from lower to higher preference
 subtitles.*.[LL].data	 The subtitles file contents (optional), where [LL] is a two-letter label identifying the language using ISO 639-1 format
 subtitles.*.[LL].ext	The extension of the subtitle track format (e.g. SRV3), where [LL] is a two-letter label identifying the language using ISO 639-1 format
 subtitles.*.[LL].url	 A URL pointing to the subtitles file (optional), where [LL] is a two-letter label identifying the language using ISO 639-1 format
-tags.*	 A list of strings each one representing a tag assigned to the video, e.g. ["sweden", "pop music"] by the creator  (optional)
+tags.*	 A list of strings each one representing a tag assigned to the video, e.g. ['sweden', 'pop music'] by the creator  (optional)
 thumbnail	 Full URL to a video thumbnail image.
 thumbnails.*	 An array of JSON objects containing details for the preview thumbnails
 thumbnails.0.filesize	The size of the thumbnail file in KB
 thumbnails.0.height	Height of the thumbnail in pixels
 thumbnails.0.id	Thumbnail format internal ID
 thumbnails.0.preference	Quality of the image using internal descriptions
-thumbnails.0.resolution	Resolution of the video in the format "{width}x{height"}, deprecated)
+thumbnails.0.resolution	Resolution of the video in the format '{width}x{height'}, deprecated)
 thumbnails.0.url	Direct link to the thumbnail image
 thumbnails.0.width	Width of the thumbnail in pixels
 timestamp	 UNIX timestamp of the moment the video became available. (optional)
@@ -104,6 +104,6 @@ uploader_url	 Full URL to a personal webpage of the video uploader. (optional)
 vbr	Average video bitrate in KBit/s
 vcodec	Name of the video codec in use
 view_count	 How many users have watched the video on the platform. (optional)
-webpage_url	 The URL to the video webpage, if given to youtube-dl it should allow to get the same result again. (It will be set by YoutubeDL if it's missing) (e.g. "http://www.ted.com/talks/dan_dennett_on_our_consciousness.html"
-webpage_url_basename	The name of the web page contained in the webpage_url data-point, e.g. "http://www.ted.com/talks/dan_dennett_on_our_consciousness.html"
+webpage_url	 The URL to the video webpage, if given to youtube-dl it should allow to get the same result again. (It will be set by YoutubeDL if it's missing) (e.g. 'http://www.ted.com/talks/dan_dennett_on_our_consciousness.html'
+webpage_url_basename	The name of the web page contained in the webpage_url data-point, e.g. 'http://www.ted.com/talks/dan_dennett_on_our_consciousness.html'
 width	Width of the video in pixels
