@@ -5,7 +5,7 @@ acodec	Name of the audio codec in use
 age_limit	Age restriction for the video, as an integer (years) (optional)
 alt_title	 A secondary title of the video. (optional)
 average_rating	 Average rating give by users, the scale used depends on the webpage (optional)
-categories.*	 An array of strings, each one describing a  category that the video falls in, for example ["Sports", "Berlin"] as assigned by the Youtube system and the content’s creator (optional)
+categories.*	 An array of strings, each one describing a category that the video falls in, for example ['Sports', 'Berlin'] as assigned by the Youtube system and the content's creator (optional)
 channel	 Full name of the channel the video is uploaded on. Note that channel fields may or may not repeat uploader fields. This depends on a particular extractor. (optional)
 channel_id	 Id of the channel. (optional)
 channel_url	 Full URL to a channel webpage. (optional)
