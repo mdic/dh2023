@@ -35,10 +35,12 @@ Now that `conda` is installed, we need to install the tools for processing our d
 `pip install jupyterlab beautifulsoup4 lxml yt-dlp`
 
 Once installation is finished, create a new directory (e.g. `dh2023`) inside of the folder `Downloads`, then from the terminal write:
-`cd Downloads/dh2023`
+
+> `cd Downloads/dh2023`
 
 Now write the following command and press Enter:
-`jupyter lab`
+
+> `jupyter lab`
 
 ## Getting our data
 Now that we have all the tools ready, we can download the data using `yt-dlp`:
