@@ -50,7 +50,7 @@ Now that we have all the tools ready, we can download the data using `yt-dlp`:
 and then we can extract it to XML and TXT files using the [`subs_to_xml.ipynb`](https://github.com/mdic/dh2023/blob/main/03_15032023/subs_to_xml.ipynb) script.
 
 ## Including different metadata
-Metadata from the JSON file is included using the syntax exemplified in `lines 12-13` (`block 3`); try to add different metadata data-points to your final corpus!
+Metadata from the JSON file is included using the syntax exemplified in `lines 15-16` (`block 3`); try to add different metadata data-points to your final corpus!
 
 ```{python}
 # Add a set of metadata points as attributes of the <text> element tag
