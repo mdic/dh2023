@@ -1,0 +1,187 @@
+how fast could a computer be
+computers get faster with each passing
+year but
+could that trend in theory continue
+forever
+one way computer scientists often model
+the idea of computation
+is with a turing machine a turing
+machine is an abstract machine
+with access to an infinite tape of
+memory cells
+each cell on the memory tape contains
+some information
+for example a bit a one or a zero
+the head of the machine reads a cell can
+write some data to the cell
+and then can move to the left or to the
+right along that tape
+according to some set of instructions we
+could define
+the speed of data processing as the rate
+at which our machine
+can process bits of information a faster
+machine
+can process more bits of information per
+unit of time
+in this theoretical world our turing
+machine could be as
+fast as we want it to be processing as
+many of these bits of data on the tape
+as we wanted
+every second but this is an
+abstract machine in a theoretical world
+not a real machine
+in the real world in the real world is
+there a limit
+to how many bits of information
+computers can process
+per unit of time it turns out there is a
+limit
+referred to as bremerman's limit named
+after the mathematician who described it
+and the limit is about 1.3564
+times 10 to the 50 bits per second
+per kilogram in other words a computer
+with a mass of one kilogram could
+process
+no more than 135 trillion
+trillion trillion trillion bits of
+information
+every second that's quite a lot of
+information
+processed very quickly but where does
+that limit come from
+the answer is that it comes from the
+laws of physics
+let's imagine that we wanted to build an
+optimally efficient computer
+a computer that maximizes the use of its
+resources
+so that it's as efficient as possible
+that computer would need to have some
+mass
+and in an optimally efficient computer
+every gram of that mass
+would be devoted to performing as much
+computation as possible
+how do we know how much energy this
+computer has well for that we can turn
+to einstein's famous
+mass energy equivalence formula e equals
+m c squared for any given mass of a
+computer
+we can use this formula to compute the
+equivalent amount of energy this
+computer has
+that number represents the maximum
+possible amount of energy
+that can be used for information
+processing
+and in our ideal computer let's put
+every last unit of that energy
+into processing as much information as
+we can
+so how much information can we actually
+process
+for that we can look to another formula
+from physics the planck equation
+which states that the energy of a photon
+is equal to its frequency
+multiplied by a constant the planck
+constant
+and because every bit of information
+that we transmit or process
+needs to have some mass this frequency
+ultimately represents an upper bound on
+how much
+information can flow through our
+computational system
+faster processing would require more
+energy which would require
+more mass and now we can calculate
+we take the energy m c squared and
+divided by planck's constant and if we
+assume
+a one kilogram computer we get our
+answer
+1.3564 times 10 to the 50
+as an upper bound on the number of bits
+that could theoretically be processed
+every second with a one kilogram
+computer
+adding more mass means a higher
+equivalent amount of energy
+and therefore more bits we can process
+per second
+the earth for example is about 6 times
+10 to the 24 kilograms so a computer the
+size of the earth
+could process no more than about 10 to
+the 75
+bits per second and the most massive
+computer we could construct
+would use all of the available mass in
+the universe
+our best estimates right now place the
+mass of the observable universe
+at about 10 to the 53 kilograms
+so if we created a computer with all of
+the available mass
+in the observable universe the upper
+bound on the number of bits
+this universe size computer could
+process is about
+1.4 times 10 to the 103
+bits per second you'd think that's
+probably fast enough to calculate just
+about
+anything we could ever want to calculate
+pretty quickly
+but that's not necessarily the case
+there are certain computations that
+might take a long time
+even for computers that hit bremerman's
+limit
+consider the game of chess a game with
+just 32 pieces
+played on an 8x8 grid despite not having
+many pieces or squares
+it was estimated by mathematician claude
+shannon that there are at least
+10 to the 120 possible different
+games of chess so if our universe sized
+computer
+tried to analyze every possible game of
+chess
+it would take more than 2 billion years
+to do so
+so why does this matter well for one we
+can use it to think about security
+if we treat bremerman's limit as an
+upper bound on the number of operations
+a computer can perform per second
+we can use it to estimate how long it
+might take to break
+certain types of security no matter how
+fast our computers get
+to try all possible 128-bit security
+keys
+that would take our theoretically
+optimal earth computer
+less than a fraction of a second all
+possible 256-bit security keys that
+would take a couple of minutes
+and a 512-bit security key
+that would take at least three times the
+age of the universe
+computers today are of course quite far
+away from hitting bremerman's limit
+and other more practical limits are
+likely to restrict computational speeds
+long before we get there but there is a
+limit
+that means that certain kinds of
+computations will never be practical
+no matter how big or how fast the
+computer

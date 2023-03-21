@@ -1,0 +1,109 @@
+Attribute name	Description
+_filename	Full name of the video file
+abr	Average audio bitrate in KBit/s
+acodec	Name of the audio codec in use
+age_limit	Age restriction for the video, as an integer (years) (optional)
+alt_title	 A secondary title of the video. (optional)
+average_rating	 Average rating give by users, the scale used depends on the webpage (optional)
+categories.*	 An array of strings, each one describing a category that the video falls in, for example ['Sports', 'Berlin'] as assigned by the Youtube system and the content's creator (optional)
+channel	 Full name of the channel the video is uploaded on. Note that channel fields may or may not repeat uploader fields. This depends on a particular extractor. (optional)
+channel_id	 Id of the channel. (optional)
+channel_url	 Full URL to a channel webpage. (optional)
+chapters.*	 An array of dictionaries containing the start and end time of each video chapter, as defined by the content creator
+chapters.0.end_time	 The end time of the chapter in seconds (optional)
+chapters.0.start_time	 The start time of the chapter in seconds (optional)
+chapters.0.title	The title of the chapter
+comment_count	 Number of comments on the video (optional)
+creator	 The creator of the video. (optional)
+description	 Full video description. (optional)
+dislike_count	 Number of negative ratings of the video (currently empty, see description)
+display_id	 An alternative identifier for the video, not necessarily unique, but available before title. Typically, id is something like '4234987', title 'Dancing naked mole rats', and display_id 'dancing-naked-mole-rats'  (optional)
+duration	 Length of the video in seconds. (optional)
+end_time	 Time in seconds where the reproduction should end, as specified in the URL. (optional)
+ext	 Video filename extension.
+extractor	Label of the tool used to extract the data
+extractor_key	Unique ID of the operation conducted by the tool used to extract the data
+format	Textual description of the format of the content, e.g. ‘160 - 256x144 (144p)’ indicating the internal Youtube number assigned to the format, the size of the content (width and height in pixels) and the resolution of the format
+formats.*	 A list of dictionaries for each format available, ordered from worst to best quality.
+formats.0.abr	Average audio bitrate in KBit/s
+formats.0.acodec	Name of the audio codec in use
+formats.0.asr	 Audio sampling rate in Hertz
+formats.0.container	The name of the file container (e.g. mp4) 
+formats.0.downloader_options.http_chunk_size	The number of parts in which the file is split when transmitted from the Youtube server to the local client
+formats.0.ext	The extension of the format
+formats.0.filesize	 The number of bytes, if known in advance
+formats.0.filesize_approx	 An estimate for the number of bytes
+formats.0.format	 A human-readable description of the format ('mp4 container with h264/opus'). Calculated from the format_id, width, height. and format_note fields if missing.
+formats.0.format_id	A short description of the format ('mp4_h264_opus' or '19'). Technically optional, but strongly recommended.
+formats.0.format_note	 Additional info about the format ('3D' or 'DASH video')
+formats.0.fps	 Frame rate of the video
+formats.0.fragment_base_url	 Base URL for fragments. Each fragment's path value (if present) will be relative to this URL.
+formats.0.fragments	 A list of fragments of a fragmented media. Each fragment entry must contain either an url or a path. If an url is present it should be considered by a client. Otherwise both path  and fragment_base_url must be present.
+formats.0.height	  Height of the video in pixels
+formats.0.http_headers.*	An array containing objects with additional HTTP headers (i.e. instructions) that were added to the request made for collecting the data
+formats.0.http_headers.Accept	Description of the formats requested to the server
+formats.0.http_headers.Accept-Charset	List of the character encodings requested to the server
+formats.0.http_headers.Accept-Encoding	List of the compression formats requested to the server
+formats.0.http_headers.Accept-Language	List of the languages (in two-letter codes, e.g. ‘en’) requested to the server
+formats.0.http_headers.User-Agent	The User-Agent (see ‘Crawling and scraping the data’) employed
+formats.0.language	Language code, e.g. 'de' or 'en-US' of the content, as defined by the creator
+formats.0.language_preference	The preferred language of the content to be shown to viewers, as set by the creator
+formats.0.manifest_url	 The URL of the manifest file in case of fragmented media (DASH, hls, hds)
+formats.0.no_resume	Whether the server supports download resuming
+formats.0.player_url	Link to the player URL, i.e. the web tool used to play the video
+formats.0.preference	Order number of this format. If this field is present and not None, the formats get sorted by this field, regardless of all other values. -1 for default (order by other properties), -2 or smaller for less than default. < -1000 to hide the format (if there is another one which is strictly better)
+formats.0.protocol	 The protocol used for the actual download, lower-case. 'http', 'https', 'rtsp', 'rtmp', 'rtmpe', 'm3u8', 'm3u8_native' or 'http_dash_segments'.
+formats.0.quality	Order number of the video quality of this format, irrespective of the file format. -1 for default (order by other properties), -2 or smaller for less than default.
+formats.0.resolution	 Textual description of width and height in pixels
+formats.0.source_preference	Order number for the selected video source (quality takes higher priority) -1 for default (order by other properties), -2 or smaller for less than default.
+formats.0.stretched_ratio	If given and not 1, indicates that the video's pixels are not square.
+formats.0.tbr	Average bitrate of audio and video in KBit/s
+formats.0.url	The full URL of the video file
+formats.0.vbr	 Average video bitrate in KBit/s
+formats.0.vcodec	The codec used to encode the video
+formats.0.width	 Width of the video in pixels
+fps	The number of Frames Per Second of the video
+fulltitle	The full title of the content, as written by the creator
+height	Height of the video in pixels
+id	Unique video identifier; this is the code that appears in a Youtube URL
+is_live	Whether this video is a live stream that goes on instead of a fixed-length video. (optional)
+license	 Licence name the video is licenced under. (optional)
+like_count	 Number of positive ratings of the video (optional)
+location	 Physical location where the video was filmed as set by the creator (optional)
+playlist	Name of the playlist the video is part of
+playlist_id	Unique ID of the playlist
+playlist_index	Order number of this video in the playlist it belongs to
+playlist_title	Title of the playlist
+playlist_uploader	Name of account that uploaded the playlist
+playlist_uploader_id	Unique ID of the account that uploaded the playlist
+release_date	 The date (YYYYMMDD) when the video was released. (optional)
+repost_count	 Number of reposts of the video (optional)
+resolution	The video resolution, e.g. 144p
+start_time	 Time in seconds where the reproduction should start, as specified in the URL. (optional)
+stretched_ratio	Whether the video proportions should be kept intact or the video should be resized
+subtitles.*	 The available subtitles as a dictionary in the format {tag: subformats}. 'tag' is usually a language code, and 'subformats' is a list sorted from lower to higher preference
+subtitles.*.[LL].data	 The subtitles file contents (optional), where [LL] is a two-letter label identifying the language using ISO 639-1 format
+subtitles.*.[LL].ext	The extension of the subtitle track format (e.g. SRV3), where [LL] is a two-letter label identifying the language using ISO 639-1 format
+subtitles.*.[LL].url	 A URL pointing to the subtitles file (optional), where [LL] is a two-letter label identifying the language using ISO 639-1 format
+tags.*	 A list of strings each one representing a tag assigned to the video, e.g. ['sweden', 'pop music'] by the creator  (optional)
+thumbnail	 Full URL to a video thumbnail image.
+thumbnails.*	 An array of JSON objects containing details for the preview thumbnails
+thumbnails.0.filesize	The size of the thumbnail file in KB
+thumbnails.0.height	Height of the thumbnail in pixels
+thumbnails.0.id	Thumbnail format internal ID
+thumbnails.0.preference	Quality of the image using internal descriptions
+thumbnails.0.resolution	Resolution of the video in the format '{width}x{height'}, deprecated)
+thumbnails.0.url	Direct link to the thumbnail image
+thumbnails.0.width	Width of the thumbnail in pixels
+timestamp	 UNIX timestamp of the moment the video became available. (optional)
+title	 Video title as written by the creator
+upload_date	 Video upload date (YYYYMMDD). If not explicitly set, calculated from timestamp. (optional)
+uploader	 Full name of the video uploader. (optional)
+uploader_id	Unique ID of the video uploader. (optional)
+uploader_url	 Full URL to a personal webpage of the video uploader. (optional)
+vbr	Average video bitrate in KBit/s
+vcodec	Name of the video codec in use
+view_count	 How many users have watched the video on the platform. (optional)
+webpage_url	 The URL to the video webpage, if given to youtube-dl it should allow to get the same result again. (It will be set by YoutubeDL if it's missing) (e.g. 'http://www.ted.com/talks/dan_dennett_on_our_consciousness.html'
+webpage_url_basename	The name of the web page contained in the webpage_url data-point, e.g. 'http://www.ted.com/talks/dan_dennett_on_our_consciousness.html'
+width	Width of the video in pixels

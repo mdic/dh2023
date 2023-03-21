@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<text date="20200822" title="How Fast Could a Computer Be? | MegaFavNumbers" likes="1103" format="srv3" autocaption="true">
+  <p time="1439" is_ac="true">how fast could a computer be</p>
+  <p time="3679" is_ac="true">computers get faster with each passing</p>
+  <p time="5839" is_ac="true">year but</p>
+  <p time="6799" is_ac="true">could that trend in theory continue</p>
+  <p time="9040" is_ac="true">forever</p>
+  <p time="10480" is_ac="true">one way computer scientists often model</p>
+  <p time="12880" is_ac="true">the idea of computation</p>
+  <p time="14799" is_ac="true">is with a turing machine a turing</p>
+  <p time="17039" is_ac="true">machine is an abstract machine</p>
+  <p time="18800" is_ac="true">with access to an infinite tape of</p>
+  <p time="21199" is_ac="true">memory cells</p>
+  <p time="22640" is_ac="true">each cell on the memory tape contains</p>
+  <p time="25199" is_ac="true">some information</p>
+  <p time="26560" is_ac="true">for example a bit a one or a zero</p>
+  <p time="30160" is_ac="true">the head of the machine reads a cell can</p>
+  <p time="33280" is_ac="true">write some data to the cell</p>
+  <p time="35120" is_ac="true">and then can move to the left or to the</p>
+  <p time="37120" is_ac="true">right along that tape</p>
+  <p time="38719" is_ac="true">according to some set of instructions we</p>
+  <p time="41920" is_ac="true">could define</p>
+  <p time="42879" is_ac="true">the speed of data processing as the rate</p>
+  <p time="45840" is_ac="true">at which our machine</p>
+  <p time="47039" is_ac="true">can process bits of information a faster</p>
+  <p time="50239" is_ac="true">machine</p>
+  <p time="51039" is_ac="true">can process more bits of information per</p>
+  <p time="53440" is_ac="true">unit of time</p>
+  <p time="55039" is_ac="true">in this theoretical world our turing</p>
+  <p time="57520" is_ac="true">machine could be as</p>
+  <p time="58719" is_ac="true">fast as we want it to be processing as</p>
+  <p time="61280" is_ac="true">many of these bits of data on the tape</p>
+  <p time="63280" is_ac="true">as we wanted</p>
+  <p time="64320" is_ac="true">every second but this is an</p>
+  <p time="67520" is_ac="true">abstract machine in a theoretical world</p>
+  <p time="70400" is_ac="true">not a real machine</p>
+  <p time="71600" is_ac="true">in the real world in the real world is</p>
+  <p time="74320" is_ac="true">there a limit</p>
+  <p time="75360" is_ac="true">to how many bits of information</p>
+  <p time="77119" is_ac="true">computers can process</p>
+  <p time="78640" is_ac="true">per unit of time it turns out there is a</p>
+  <p time="82159" is_ac="true">limit</p>
+  <p time="82880" is_ac="true">referred to as bremerman's limit named</p>
+  <p time="85200" is_ac="true">after the mathematician who described it</p>
+  <p time="87600" is_ac="true">and the limit is about 1.3564</p>
+  <p time="91840" is_ac="true">times 10 to the 50 bits per second</p>
+  <p time="95200" is_ac="true">per kilogram in other words a computer</p>
+  <p time="98400" is_ac="true">with a mass of one kilogram could</p>
+  <p time="100799" is_ac="true">process</p>
+  <p time="101439" is_ac="true">no more than 135 trillion</p>
+  <p time="104560" is_ac="true">trillion trillion trillion bits of</p>
+  <p time="107200" is_ac="true">information</p>
+  <p time="108079" is_ac="true">every second that's quite a lot of</p>
+  <p time="110799" is_ac="true">information</p>
+  <p time="111520" is_ac="true">processed very quickly but where does</p>
+  <p time="114240" is_ac="true">that limit come from</p>
+  <p time="116079" is_ac="true">the answer is that it comes from the</p>
+  <p time="117920" is_ac="true">laws of physics</p>
+  <p time="119759" is_ac="true">let's imagine that we wanted to build an</p>
+  <p time="122079" is_ac="true">optimally efficient computer</p>
+  <p time="124079" is_ac="true">a computer that maximizes the use of its</p>
+  <p time="126399" is_ac="true">resources</p>
+  <p time="127439" is_ac="true">so that it's as efficient as possible</p>
+  <p time="130479" is_ac="true">that computer would need to have some</p>
+  <p time="132400" is_ac="true">mass</p>
+  <p time="133599" is_ac="true">and in an optimally efficient computer</p>
+  <p time="136239" is_ac="true">every gram of that mass</p>
+  <p time="138000" is_ac="true">would be devoted to performing as much</p>
+  <p time="140080" is_ac="true">computation as possible</p>
+  <p time="143280" is_ac="true">how do we know how much energy this</p>
+  <p time="144959" is_ac="true">computer has well for that we can turn</p>
+  <p time="147360" is_ac="true">to einstein's famous</p>
+  <p time="148959" is_ac="true">mass energy equivalence formula e equals</p>
+  <p time="152239" is_ac="true">m c squared for any given mass of a</p>
+  <p time="155519" is_ac="true">computer</p>
+  <p time="156239" is_ac="true">we can use this formula to compute the</p>
+  <p time="158400" is_ac="true">equivalent amount of energy this</p>
+  <p time="160080" is_ac="true">computer has</p>
+  <p time="161760" is_ac="true">that number represents the maximum</p>
+  <p time="164239" is_ac="true">possible amount of energy</p>
+  <p time="166000" is_ac="true">that can be used for information</p>
+  <p time="167760" is_ac="true">processing</p>
+  <p time="169040" is_ac="true">and in our ideal computer let's put</p>
+  <p time="171599" is_ac="true">every last unit of that energy</p>
+  <p time="173840" is_ac="true">into processing as much information as</p>
+  <p time="176239" is_ac="true">we can</p>
+  <p time="178080" is_ac="true">so how much information can we actually</p>
+  <p time="180239" is_ac="true">process</p>
+  <p time="181280" is_ac="true">for that we can look to another formula</p>
+  <p time="183360" is_ac="true">from physics the planck equation</p>
+  <p time="185920" is_ac="true">which states that the energy of a photon</p>
+  <p time="188159" is_ac="true">is equal to its frequency</p>
+  <p time="190159" is_ac="true">multiplied by a constant the planck</p>
+  <p time="192800" is_ac="true">constant</p>
+  <p time="194239" is_ac="true">and because every bit of information</p>
+  <p time="196640" is_ac="true">that we transmit or process</p>
+  <p time="198879" is_ac="true">needs to have some mass this frequency</p>
+  <p time="201920" is_ac="true">ultimately represents an upper bound on</p>
+  <p time="204720" is_ac="true">how much</p>
+  <p time="205280" is_ac="true">information can flow through our</p>
+  <p time="207440" is_ac="true">computational system</p>
+  <p time="209280" is_ac="true">faster processing would require more</p>
+  <p time="211360" is_ac="true">energy which would require</p>
+  <p time="213200" is_ac="true">more mass and now we can calculate</p>
+  <p time="216640" is_ac="true">we take the energy m c squared and</p>
+  <p time="219680" is_ac="true">divided by planck's constant and if we</p>
+  <p time="222319" is_ac="true">assume</p>
+  <p time="222799" is_ac="true">a one kilogram computer we get our</p>
+  <p time="225120" is_ac="true">answer</p>
+  <p time="226760" is_ac="true">1.3564 times 10 to the 50</p>
+  <p time="229680" is_ac="true">as an upper bound on the number of bits</p>
+  <p time="231920" is_ac="true">that could theoretically be processed</p>
+  <p time="233920" is_ac="true">every second with a one kilogram</p>
+  <p time="236159" is_ac="true">computer</p>
+  <p time="237439" is_ac="true">adding more mass means a higher</p>
+  <p time="239360" is_ac="true">equivalent amount of energy</p>
+  <p time="240959" is_ac="true">and therefore more bits we can process</p>
+  <p time="243280" is_ac="true">per second</p>
+  <p time="244720" is_ac="true">the earth for example is about 6 times</p>
+  <p time="247840" is_ac="true">10 to the 24 kilograms so a computer the</p>
+  <p time="251439" is_ac="true">size of the earth</p>
+  <p time="252640" is_ac="true">could process no more than about 10 to</p>
+  <p time="255280" is_ac="true">the 75</p>
+  <p time="256639" is_ac="true">bits per second and the most massive</p>
+  <p time="260000" is_ac="true">computer we could construct</p>
+  <p time="261519" is_ac="true">would use all of the available mass in</p>
+  <p time="263840" is_ac="true">the universe</p>
+  <p time="265600" is_ac="true">our best estimates right now place the</p>
+  <p time="268000" is_ac="true">mass of the observable universe</p>
+  <p time="270000" is_ac="true">at about 10 to the 53 kilograms</p>
+  <p time="273440" is_ac="true">so if we created a computer with all of</p>
+  <p time="276080" is_ac="true">the available mass</p>
+  <p time="277280" is_ac="true">in the observable universe the upper</p>
+  <p time="279600" is_ac="true">bound on the number of bits</p>
+  <p time="281199" is_ac="true">this universe size computer could</p>
+  <p time="283040" is_ac="true">process is about</p>
+  <p time="284639" is_ac="true">1.4 times 10 to the 103</p>
+  <p time="288639" is_ac="true">bits per second you'd think that's</p>
+  <p time="291360" is_ac="true">probably fast enough to calculate just</p>
+  <p time="293520" is_ac="true">about</p>
+  <p time="293919" is_ac="true">anything we could ever want to calculate</p>
+  <p time="296240" is_ac="true">pretty quickly</p>
+  <p time="297600" is_ac="true">but that's not necessarily the case</p>
+  <p time="300160" is_ac="true">there are certain computations that</p>
+  <p time="301759" is_ac="true">might take a long time</p>
+  <p time="303199" is_ac="true">even for computers that hit bremerman's</p>
+  <p time="305360" is_ac="true">limit</p>
+  <p time="306479" is_ac="true">consider the game of chess a game with</p>
+  <p time="308639" is_ac="true">just 32 pieces</p>
+  <p time="310080" is_ac="true">played on an 8x8 grid despite not having</p>
+  <p time="313280" is_ac="true">many pieces or squares</p>
+  <p time="315120" is_ac="true">it was estimated by mathematician claude</p>
+  <p time="317199" is_ac="true">shannon that there are at least</p>
+  <p time="319039" is_ac="true">10 to the 120 possible different</p>
+  <p time="322240" is_ac="true">games of chess so if our universe sized</p>
+  <p time="325840" is_ac="true">computer</p>
+  <p time="326560" is_ac="true">tried to analyze every possible game of</p>
+  <p time="328960" is_ac="true">chess</p>
+  <p time="329680" is_ac="true">it would take more than 2 billion years</p>
+  <p time="332320" is_ac="true">to do so</p>
+  <p time="334240" is_ac="true">so why does this matter well for one we</p>
+  <p time="337280" is_ac="true">can use it to think about security</p>
+  <p time="339440" is_ac="true">if we treat bremerman's limit as an</p>
+  <p time="341199" is_ac="true">upper bound on the number of operations</p>
+  <p time="343199" is_ac="true">a computer can perform per second</p>
+  <p time="345199" is_ac="true">we can use it to estimate how long it</p>
+  <p time="347039" is_ac="true">might take to break</p>
+  <p time="348560" is_ac="true">certain types of security no matter how</p>
+  <p time="350880" is_ac="true">fast our computers get</p>
+  <p time="352960" is_ac="true">to try all possible 128-bit security</p>
+  <p time="356319" is_ac="true">keys</p>
+  <p time="357199" is_ac="true">that would take our theoretically</p>
+  <p time="358800" is_ac="true">optimal earth computer</p>
+  <p time="360240" is_ac="true">less than a fraction of a second all</p>
+  <p time="362639" is_ac="true">possible 256-bit security keys that</p>
+  <p time="366080" is_ac="true">would take a couple of minutes</p>
+  <p time="368160" is_ac="true">and a 512-bit security key</p>
+  <p time="371440" is_ac="true">that would take at least three times the</p>
+  <p time="373840" is_ac="true">age of the universe</p>
+  <p time="376160" is_ac="true">computers today are of course quite far</p>
+  <p time="378800" is_ac="true">away from hitting bremerman's limit</p>
+  <p time="381039" is_ac="true">and other more practical limits are</p>
+  <p time="383120" is_ac="true">likely to restrict computational speeds</p>
+  <p time="385600" is_ac="true">long before we get there but there is a</p>
+  <p time="388479" is_ac="true">limit</p>
+  <p time="389199" is_ac="true">that means that certain kinds of</p>
+  <p time="390720" is_ac="true">computations will never be practical</p>
+  <p time="393360" is_ac="true">no matter how big or how fast the</p>
+  <p time="400840" is_ac="true">computer</p>
+</text>
