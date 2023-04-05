@@ -2,7 +2,7 @@
 
 1. First, let's install the required tools:
 
-> `pip install youtube-comment-downloader vaderSentiment jsonlines`
+> `pip install youtube-comment-downloader vaderSentiment jsonlines pandas`
 
 1. Then we need to download some comments
 
