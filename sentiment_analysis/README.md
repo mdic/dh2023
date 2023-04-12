@@ -9,7 +9,7 @@
 
 > `jupyter lab`
 
-4. If the script does not show the usual code blocks, right-click on the file and delete the `.txt` extension at the end of the filename if present once the file is saved). Then reopen the script and run the two blocks.
+4. If the script does not show the usual code blocks, right-click on the file and delete the `.txt` extension at the end of the filename if present once the file is saved). Then reopen the script and run the two blocks. **The first time you run the script, it will download the language model for sentiment analysis (approx. 280MB) so it will take some time (this step is not shown in the video further below)**.
 
 5. Once the script has finished working, you will find a new `.csv` file in your folder: double-click on it and select "Tab" as "Delimiter" to correctly see the results. These are structured as exemplified below, and as you can see they include both the sentiment analysis calculated through the already-seen predefined-dictionary approach (columns `negative`, `neutral`, `positive`, `compound`), and the ones calculated by the newly-implemented AI (columns `anger`, `fear`, `love`, `surprise`, `joy`, `sadness`).  Predefined-dictionary calculated sentiment used four categories, with `compound` being a summary of the other three ones, and with values ranging from 0 (no presence of the sentiment) to 1 (max presence of the sentiment). AI-calculated sentiment is based on six different scores, each one referring to a different "sentiment" (see column names), with values ranging from 0 to 1 - where 1 indicates "certain" presence of the sentiment, and 0 absence.
 
