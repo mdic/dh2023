@@ -36,5 +36,5 @@
 - [Tencent Cloud announces Deepfakes-as-a-Service for $145](https://www.theregister.com/2023/04/28/tencent_digital_humans/)
 - [Alphabet-backed Anthropic outlines the moral values behind its AI bot](https://www.reuters.com/technology/alphabet-backed-anthropic-outlines-moral-values-behind-its-ai-bot-2023-05-09/)
 - [Palantir Demos AI to Fight Wars But Says It Will Be Totally Ethical Don’t Worry About It](https://www.vice.com/en/article/qjvb4x/palantir-demos-ai-to-fight-wars-but-says-it-will-be-totally-ethical-dont-worry-about-it)
-- [ChatGPT Will See You Now: Doctors Using AI to Answer Patient Questions](https://www.wsj.com/articles/dr-chatgpt-physicians-are-sending-patients-advice-using-ai-945cf60b)
+- ChatGPT Will See You Now: Doctors Using AI to Answer Patient Questions (available in our Teams shared folder)
 - [Effective students' assessment practices for a ChatGPT-enabled world](https://www.timeshighereducation.com/campus/effective-assessment-practices-chatgptenabled-world)
