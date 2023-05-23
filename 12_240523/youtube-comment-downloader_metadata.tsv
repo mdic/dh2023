@@ -1,0 +1,10 @@
+Attribute name	Int. Data	Description
+cid	SID + PID	The unique ID of the comment (see description)
+text	SID	The plain-text format of the comment
+time	CID	When the comment was posted, relative to the collection date (see description)
+author	SID	The name of the author of the comment
+channel	PID	The unique ID of the page of the user who wrote the comment
+votes	SID	The number of likes the comment has received
+photo	PID	Direct link to the writer’s profile picture
+heart	SID	Whether the creator of the content that received the comment has “hearted” the comment (this is a function available to the content’s creator to show their appreciation of the comment)
+time_parsed	SID	The date and time on which the comment was posted (see description)
