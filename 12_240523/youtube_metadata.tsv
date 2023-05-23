@@ -1,0 +1,109 @@
+Attribute name	Int. Data	Description
+_filename	PID	Full name of the video file
+abr	PID	Average audio bitrate in KBit/s
+acodec	PID	Name of the audio codec in use
+age_limit	SID + PID	Age restriction for the video, as an integer (years) (optional)
+alt_title	SID	 A secondary title of the video. (optional)
+average_rating	SID	 Average rating give by users, the scale used depends on the webpage (optional)
+categories.*	[SID + PID]	 An array of strings, each one describing a category that the video falls in, for example ['Sports', 'Berlin'] as assigned by the Youtube system and the content's creator (optional)
+channel	SID	 Full name of the channel the video is uploaded on. Note that channel fields may or may not repeat uploader fields. This depends on a particular extractor. (optional)
+channel_id	PID	 Id of the channel. (optional)
+channel_url	PID	 Full URL to a channel webpage. (optional)
+chapters.*	[SID]	 An array of dictionaries containing the start and end time of each video chapter, as defined by the content creator
+chapters.0.end_time	SID	 The end time of the chapter in seconds (optional)
+chapters.0.start_time	SID	 The start time of the chapter in seconds (optional)
+chapters.0.title	SID	The title of the chapter
+comment_count	SID	 Number of comments on the video (optional)
+creator	SID	 The creator of the video. (optional)
+description	SID	 Full video description. (optional)
+dislike_count	SID	 Number of negative ratings of the video (currently empty, see description)
+display_id	PID	 An alternative identifier for the video, not necessarily unique, but available before title. Typically, id is something like '4234987', title 'Dancing naked mole rats', and display_id 'dancing-naked-mole-rats'  (optional)
+duration	SID + PID	 Length of the video in seconds. (optional)
+end_time	SID	 Time in seconds where the reproduction should end, as specified in the URL. (optional)
+ext	PID	 Video filename extension.
+extractor	CID	Label of the tool used to extract the data
+extractor_key	CID	Unique ID of the operation conducted by the tool used to extract the data
+format	PID	Textual description of the format of the content, e.g. ‘160 - 256x144 (144p)’ indicating the internal Youtube number assigned to the format, the size of the content (width and height in pixels) and the resolution of the format
+formats.*	[PID]	 A list of dictionaries for each format available, ordered from worst to best quality.
+formats.0.abr	PID	Average audio bitrate in KBit/s
+formats.0.acodec	PID	Name of the audio codec in use
+formats.0.asr	PID	 Audio sampling rate in Hertz
+formats.0.container	PID	The name of the file container (e.g. mp4) 
+formats.0.downloader_options.http_chunk_size	PID	The number of parts in which the file is split when transmitted from the Youtube server to the local client
+formats.0.ext	PID	The extension of the format
+formats.0.filesize	PID	 The number of bytes, if known in advance
+formats.0.filesize_approx	PID	 An estimate for the number of bytes
+formats.0.format	PID	 A human-readable description of the format ('mp4 container with h264/opus'). Calculated from the format_id, width, height. and format_note fields if missing.
+formats.0.format_id	PID	A short description of the format ('mp4_h264_opus' or '19'). Technically optional, but strongly recommended.
+formats.0.format_note	PID	 Additional info about the format ('3D' or 'DASH video')
+formats.0.fps	PID	 Frame rate of the video
+formats.0.fragment_base_url	PID	 Base URL for fragments. Each fragment's path value (if present) will be relative to this URL.
+formats.0.fragments	PID	 A list of fragments of a fragmented media. Each fragment entry must contain either an url or a path. If an url is present it should be considered by a client. Otherwise both path  and fragment_base_url must be present.
+formats.0.height	PID	  Height of the video in pixels
+formats.0.http_headers.*	[CID]	An array containing objects with additional HTTP headers (i.e. instructions) that were added to the request made for collecting the data
+formats.0.http_headers.Accept	CID	Description of the formats requested to the server
+formats.0.http_headers.Accept-Charset	CID	List of the character encodings requested to the server
+formats.0.http_headers.Accept-Encoding	CID	List of the compression formats requested to the server
+formats.0.http_headers.Accept-Language	CID	List of the languages (in two-letter codes, e.g. ‘en’) requested to the server
+formats.0.http_headers.User-Agent	CID	The User-Agent (see ‘Crawling and scraping the data’) employed
+formats.0.language	SID	Language code, e.g. 'de' or 'en-US' of the content, as defined by the creator
+formats.0.language_preference	SID	The preferred language of the content to be shown to viewers, as set by the creator
+formats.0.manifest_url	PID	 The URL of the manifest file in case of fragmented media (DASH, hls, hds)
+formats.0.no_resume	PID	Whether the server supports download resuming
+formats.0.player_url	PID	Link to the player URL, i.e. the web tool used to play the video
+formats.0.preference	PID	Order number of this format. If this field is present and not None, the formats get sorted by this field, regardless of all other values. -1 for default (order by other properties), -2 or smaller for less than default. < -1000 to hide the format (if there is another one which is strictly better)
+formats.0.protocol	CID	 The protocol used for the actual download, lower-case. 'http', 'https', 'rtsp', 'rtmp', 'rtmpe', 'm3u8', 'm3u8_native' or 'http_dash_segments'.
+formats.0.quality	PID	Order number of the video quality of this format, irrespective of the file format. -1 for default (order by other properties), -2 or smaller for less than default.
+formats.0.resolution	PID	 Textual description of width and height in pixels
+formats.0.source_preference	CID	Order number for the selected video source (quality takes higher priority) -1 for default (order by other properties), -2 or smaller for less than default.
+formats.0.stretched_ratio	PID	If given and not 1, indicates that the video's pixels are not square.
+formats.0.tbr	PID	Average bitrate of audio and video in KBit/s
+formats.0.url	PID	The full URL of the video file
+formats.0.vbr	PID	 Average video bitrate in KBit/s
+formats.0.vcodec	PID	The codec used to encode the video
+formats.0.width	PID	 Width of the video in pixels
+fps	PID	The number of Frames Per Second of the video
+fulltitle	SID	The full title of the content, as written by the creator
+height	PID	Height of the video in pixels
+id	PID	Unique video identifier; this is the code that appears in a Youtube URL
+is_live	SID	Whether this video is a live stream that goes on instead of a fixed-length video. (optional)
+license	SID + PID	 Licence name the video is licenced under. (optional)
+like_count	SID	 Number of positive ratings of the video (optional)
+location	SID	 Physical location where the video was filmed as set by the creator (optional)
+playlist	SID	Name of the playlist the video is part of
+playlist_id	PID	Unique ID of the playlist
+playlist_index	SID + PID	Order number of this video in the playlist it belongs to
+playlist_title	SID	Title of the playlist
+playlist_uploader	SID	Name of account that uploaded the playlist
+playlist_uploader_id	PID	Unique ID of the account that uploaded the playlist
+release_date	SID	 The date (YYYYMMDD) when the video was released. (optional)
+repost_count	SID	 Number of reposts of the video (optional)
+resolution	PID	The video resolution, e.g. 144p
+start_time	SID	 Time in seconds where the reproduction should start, as specified in the URL. (optional)
+stretched_ratio	PID	Whether the video proportions should be kept intact or the video should be resized
+subtitles.*	[SID]	 The available subtitles as a dictionary in the format {tag: subformats}. 'tag' is usually a language code, and 'subformats' is a list sorted from lower to higher preference
+subtitles.*.[LL].data	SID + PID	 The subtitles file contents (optional), where [LL] is a two-letter label identifying the language using ISO 639-1 format
+subtitles.*.[LL].ext	PID	The extension of the subtitle track format (e.g. SRV3), where [LL] is a two-letter label identifying the language using ISO 639-1 format
+subtitles.*.[LL].url	PID	 A URL pointing to the subtitles file (optional), where [LL] is a two-letter label identifying the language using ISO 639-1 format
+tags.*	SID	 A list of strings each one representing a tag assigned to the video, e.g. ['sweden', 'pop music'] by the creator  (optional)
+thumbnail	PID	 Full URL to a video thumbnail image.
+thumbnails.*	[PID]	 An array of JSON objects containing details for the preview thumbnails
+thumbnails.0.filesize	PID	The size of the thumbnail file in KB
+thumbnails.0.height	PID	Height of the thumbnail in pixels
+thumbnails.0.id	PID	Thumbnail format internal ID
+thumbnails.0.preference	PID	Quality of the image using internal descriptions
+thumbnails.0.resolution	PID	Resolution of the video in the format '{width}x{height'}, deprecated)
+thumbnails.0.url	PID	Direct link to the thumbnail image
+thumbnails.0.width	PID	Width of the thumbnail in pixels
+timestamp	PID	 UNIX timestamp of the moment the video became available. (optional)
+title	SID	 Video title as written by the creator
+upload_date	SID + PID	 Video upload date (YYYYMMDD). If not explicitly set, calculated from timestamp. (optional)
+uploader	SID	 Full name of the video uploader. (optional)
+uploader_id	PID	Unique ID of the video uploader. (optional)
+uploader_url	SID	 Full URL to a personal webpage of the video uploader. (optional)
+vbr	PID	Average video bitrate in KBit/s
+vcodec	PID	Name of the video codec in use
+view_count	AID	 How many users have watched the video on the platform. (optional)
+webpage_url	SID	 The URL to the video webpage, if given to youtube-dl it should allow to get the same result again. (It will be set by YoutubeDL if it's missing) (e.g. 'http://www.ted.com/talks/dan_dennett_on_our_consciousness.html'
+webpage_url_basename	SID	The name of the web page contained in the webpage_url data-point, e.g. 'http://www.ted.com/talks/dan_dennett_on_our_consciousness.html'
+width	PID	Width of the video in pixels
